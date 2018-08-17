@@ -32,7 +32,7 @@ type AddTransactionResponse struct {
 	ParseStatus      string `json:"parseStatus"`
 }
 
-type TransactionParameters struct {
+type AddTransactionParameters struct {
 	Description   string
 	Amount        float64
 	AccountID     string
